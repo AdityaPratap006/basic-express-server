@@ -1,5 +1,7 @@
 const express = require('express');
 
+const secrets = require('./secrets.js');
+
 const app = express();
 
 app.get('/', (req, res) => {
@@ -7,6 +9,7 @@ app.get('/', (req, res) => {
     const user = {
         name: 'John Wick',
         hobby: 'Killing!',
+        nickName: secrets.NICK_NAME
     }
     res.send(user);
     // res.send('<h1>My server is running!</h1>')

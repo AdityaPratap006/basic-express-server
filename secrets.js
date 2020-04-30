@@ -1,0 +1,1 @@
+module.exports = { NICK_NAME = 'Baba Yaga', };

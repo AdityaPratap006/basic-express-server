@@ -8,6 +8,7 @@ app.get('/', (req, res) => {
 
     const user = {
         name: 'John Wick',
+        birthplace: 'Belarus',
         hobby: 'Killing!',
         nickName: secrets.NICK_NAME
     }

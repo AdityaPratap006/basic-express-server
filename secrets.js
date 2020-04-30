@@ -1,1 +1,1 @@
-module.exports = { NICK_NAME = 'Baba Yaga', };
+module.exports = { NICK_NAME : 'Baba Yaga', };

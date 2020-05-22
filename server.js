@@ -10,12 +10,13 @@ app.get('/', (req, res) => {
         name: 'John Wick',
         birthplace: 'Belarus',
         hobby: 'Killing!',
-        nickName: secrets.NICK_NAME
+        nickName: secrets.NICK_NAME,
+        mission: 'Destroy the high table',
     }
     res.send(user);
     // res.send('<h1>My server is running!</h1>')
 })
 
-app.listen(5000, () => {
-    console.log('App is running on port 5000')
+app.listen(4000, () => {
+    console.log('App is running on port 4000')
 })

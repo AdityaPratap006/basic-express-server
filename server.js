@@ -10,7 +10,8 @@ app.get('/', (req, res) => {
         name: 'John Wick',
         birthplace: 'Belarus',
         hobby: 'Killing!',
-        nickName: secrets.NICK_NAME
+        nickName: secrets.NICK_NAME,
+        mission: 'Destroy the high table',
     }
     res.send(user);
     // res.send('<h1>My server is running!</h1>')

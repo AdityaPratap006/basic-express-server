@@ -12,6 +12,7 @@ app.get('/', (req, res) => {
         hobby: 'Killing!',
         nickName: secrets.NICK_NAME,
         mission: 'Destroy the high table',
+        weapons: ['Glock26', 'Glock34', 'AR-15', 'Benelli M4'],
     }
     res.send(user);
     // res.send('<h1>My server is running!</h1>')
